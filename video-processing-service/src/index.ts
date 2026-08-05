@@ -23,7 +23,7 @@ app.post("/process-video", async (req, res) => {
   
     const inputFileName = data.name;
     const outputFileName = `processed-${inputFileName}`;
-    const videoId = inputFileName.split("-")[1].split(".")[0];
+    const videoId = inputFileName.split(".")[0];
 
     if(!isVideoNew(videoId)) {
         return res.status(400).send('Bad Request: video has already been processed.');
