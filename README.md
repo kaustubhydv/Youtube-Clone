@@ -14,6 +14,8 @@ A full-stack cloud-native YouTube clone built using Next.js, Firebase, and Googl
 - Responsive Next.js frontend
 
 ## Architecture
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a30cab8f-c65b-4cf8-8c4a-34e8031922ad" />
+
 
 User Upload
 ↓
